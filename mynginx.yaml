@@ -14,7 +14,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: dorothytiner0324/docker_tiner/nginx112:<BUILD_TAG>
+      - image: dorothytiner0324/nginx-demo:<BUILD_TAG>
         name: nginx
         imagePullPolicy: IfNotPresent
         command: [ "/bin/bash", "-ce", "tail -f /dev/null" ]
